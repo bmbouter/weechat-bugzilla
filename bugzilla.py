@@ -25,6 +25,6 @@ if weechat.register(SCRIPT_NAME, SCRIPT_AUTHOR, SCRIPT_VERSION, SCRIPT_LICENSE, 
 def hook_print_callback(data, buffer, date, tags, displayed, highlight, prefix, message):
     url = '{0}[https://bugzilla.redhat.com/show_bug.cgi?id={1}]'
     for number in re.findall(r'[bB][zZ] ?#?(\d+)', message):
-        weechat.prnt(buffer, url.format(weechat.color(SCRIPT_COLOR), number))
+        weechat.command(buffer, url.format(weechat.color(SCRIPT_COLOR), number))
 
     return weechat.WEECHAT_RC_OK
