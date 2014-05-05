@@ -1,0 +1,15 @@
+================
+ Change history
+================
+
+Upcoming Release
+======
+* Parameterized script color
+* Improved RegEx matching
+* Updated URL for RedHat's Bugzilla
+
+
+0.0.1
+======
+* Initial implementation.  Wraithan <xwraithanx@gmail.com>
+
