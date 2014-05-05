@@ -37,7 +37,7 @@ Syntax
 
 Any line containing bz (case insensitive) that is followed by a number would 
 match.  The 'bz' and number may be separated by an optional space and/or #.  
-All of the following lines would match:
+All of the following lines would match::
 
     bz 1234
     BZ 1234
